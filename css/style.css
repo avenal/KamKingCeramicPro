@@ -306,7 +306,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 img{
   display: block;
   width: 100%;
+  height: auto;
   max-width: 660px;
+  max-height: 400px;
 }
 .description-image{
   margin: 0 auto;
@@ -362,4 +364,25 @@ text-align: center;
     max-width: 1920px;
 
   }
+}
+.category-center{
+  text-align: center;
+}
+.row-black{
+  background: #1e1e1e
+}
+.row-pink{
+  background: #ea1b8d;
+}
+.pink-text{
+  color: #ea1b8d;
+}
+.row-dark{
+  background: black;
+}
+.logo{
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
 }
