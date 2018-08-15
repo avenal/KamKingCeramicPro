@@ -274,6 +274,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   height: 340px;
   width: 300px;
   margin: 0 auto;
+
 }
 @media (min-width: 992px){
   .description{
