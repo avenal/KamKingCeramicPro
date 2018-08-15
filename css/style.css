@@ -55,7 +55,9 @@ section {
 section h2 {
   font-size: 50px;
 }
-
+span{
+  color: #ea1b8d;
+}
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -68,14 +70,14 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: #ea1b8d;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+  color: #222222;
 }
 
 #mainNav .navbar-toggler {
@@ -231,7 +233,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: #ea1b8d;
 }
 
 .no-gutter > [class*='col-'] {
@@ -247,8 +249,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
+  border-color: #ea1b8d;
+  background-color: #ea1b8d;
 }
 
 .btn {
@@ -306,13 +308,21 @@ img{
   width: 100%;
   max-width: 660px;
 }
+.description-image{
+  margin: 0 auto;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 180px;
+  max-height: 200px;
+}
 .offer{
 
 }
 .products{
 padding-left: 0;
 padding-right: 0;
-
+cursor: pointer;
 }
 
 .overlay{
@@ -324,14 +334,14 @@ right:0;
 height:100%;
 opacity:0;
 transition:  .5s ease;
-background: rgba(255,119,29,0.9);
+background: rgba(234,27,141,0.5);
 text-align: center;
 }
 
 .content{
   color: white;
   position:absolute;
-  top:45%;
+  top:50%;
   left:50%;
   transform: translate(-50%,-50%);
 }
