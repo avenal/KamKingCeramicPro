@@ -1,0 +1,355 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  background: black;
+}
+
+a {
+  color: #fdcc52;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+}
+
+a:hover, a:focus {
+  color: #fcbd20;
+}
+
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+
+hr.light {
+  border-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2 {
+  font-size: 50px;
+}
+
+#mainNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color: white;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand {
+  color: #fdcc52;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+  color: #fcbd20;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  padding: 8px 10px;
+  color: #222222;
+}
+
+#mainNav .navbar-nav > li > a {
+  font-size: 11px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#mainNav .navbar-nav > li > a.active {
+  color: #fdcc52 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a.active:hover {
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a,
+#mainNav .navbar-nav > li > a:focus {
+  color: #222222;
+}
+
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+  color: #fdcc52;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: fade(white, 70%);
+  }
+  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: white;
+  }
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li > a:hover,
+  #mainNav .navbar-nav > li > a:focus:hover {
+    color: white;
+  }
+  #mainNav.navbar-shrink {
+    border-color: rgba(34, 34, 34, 0.1);
+    background-color: white;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #222222;
+  }
+  #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+    color: #fdcc52;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li > a,
+  #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+    color: #222222;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+  #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+    color: #fdcc52;
+  }
+}
+
+header.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  background: url("../img/test2.jpg"), #7b4397;
+  background-repeat: no-repeat;
+}
+
+header.masthead .header-content {
+  max-width: 500px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+header.masthead .header-content h1 {
+  font-size: 30px;
+}
+
+header.masthead .device-container {
+  max-width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header.masthead .device-container .screen img {
+  border-radius: 3px;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 775px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead .header-content {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  header.masthead .header-content h1 {
+    font-size: 50px;
+  }
+  header.masthead .device-container {
+    max-width: 325px;
+  }
+}
+
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #222222;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
+footer ul {
+  margin-bottom: 0;
+}
+
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+  text-decoration: none;
+}
+
+.bg-primary {
+  background: #fdcc52;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539);
+}
+
+.text-primary {
+  color: #fdcc52;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn-outline {
+  color: white;
+  border: 1px solid;
+  border-color: white;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: white;
+  border-color: #fdcc52;
+  background-color: #fdcc52;
+}
+
+.btn {
+  border-radius: 300px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.btn-xl {
+  font-size: 11px;
+  padding: 15px 45px;
+}
+.description:before{
+  content:'Nanoshine LTD jest producentem powłok ceramicznych przeznaczonych  do wszystkich rodzajów powierzchni. Seria produktów, pod wspólną marką Ceramic Pro, została oparta o technologię  ceramicznych związków molekularnych.';
+  animation: animate infinite 40s;
+}
+.description{
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+@media (min-width: 992px){
+  .description{
+    text-align: left;
+    margin: 0 0;
+    height: 300px;
+    width: 400px;
+  }
+}
+
+@keyframes animate
+{
+  0%
+  {
+    opacity: 1;
+    content:'Nanoshine LTD jest producentem powłok ceramicznych przeznaczonych  do wszystkich rodzajów powierzchni. Seria produktów, pod wspólną marką Ceramic Pro, została oparta o technologię  ceramicznych związków molekularnych.';
+  }
+  33%
+  {
+    opacity: 1;
+      content:'Ceramic Pro to wyjątkowa ochrona powierzchni samochodów, jachtów  i statków powietrznych, jak również odnajdująca swoje zastosowanie  w budownictwie, przemyśle i użytku domowym. Pokrycia Ceramic Pro  stosowane są na powierzchniach metalowych, plastikowych, szklanych, kamiennych, skórzanych i kauczukowych. Produkty są nieustannie udoskonalane, by osiągnąć najlepsze wyniki potwierdzone przez certyfikat SGS. ';
+  }
+  67%
+  {
+      opacity: 1;
+      content:'Od 2011 roku firma Ceramic Pro uczestniczy w wielu międzynarodowych wystawach zaskakując zainteresowanych nowatorskimi rozwiązaniami.  Kierując się innowacyjnym podejściem, najnowszą technologią i dążeniem  do doskonałości oferujemy szerokie zastosowanie powłok.';
+  }
+
+}
+img{
+  display: block;
+  width: 100%;
+  max-width: 660px;
+}
+.offer{
+
+}
+.products{
+padding-left: 0;
+padding-right: 0;
+
+}
+
+.overlay{
+position: absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+height:100%;
+opacity:0;
+transition:  .5s ease;
+background: rgba(255,119,29,0.9);
+text-align: center;
+}
+
+.content{
+  color: white;
+  position:absolute;
+  top:45%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.products:hover .overlay{
+  opacity: 1;
+}
+
+@media (min-width: 768px)
+{
+  .container{
+    max-width: 992px;
+  }
+}
+@media (min-width: 992px)
+{
+  .container{
+    max-width: 1920px;
+
+  }
+}
